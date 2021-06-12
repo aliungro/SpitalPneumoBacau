@@ -13,4 +13,12 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Mappings\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpitalPneumo.Domain\SpitalPneumo.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Common", "0-Common", "{DF78AB0E-B86B-4443-9662-64AA91A44659}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Core", "1-Core", "{221132EE-5C15-4313-A584-C44FD69EAACE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infrastructure", "2-Infrastructure", "{F2AC8364-733E-467E-8F9E-7400DF092660}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Presentation", "3-Presentation", "{1E6AD297-BA09-4F5B-A38C-F907DADE123C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Tests", "4-Tests", "{59521F1D-8A28-4C15-A3CE-7A040525E16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpitalPneumo.Common", "SpitalPneumo.Common\SpitalPneumo.Common.csproj", "{BD5D272D-D43D-4F7F-B0A8-3835D32D3743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpitalPneumo.Business", "SpitalPneumo.Business\SpitalPneumo.Business.csproj", "{1025C8BC-C583-4AFA-9EF6-8CFCE32EFFF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpitalPneumo.Domain", "SpitalPneumo.Domain\SpitalPneumo.Domain.csproj", "{75A61DBD-6ED9-4B55-B87F-9AD13B182A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpitalPneumo.DataAccess.EntityFramework", "SpitalPneumo.DataAccess.EntityFramework\SpitalPneumo.DataAccess.EntityFramework.csproj", "{DBC92DEA-7385-4D2D-A78B-DBCA98B73D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpitalPneumo.DependencyInjection", "SpitalPneumo.DependencyInjection\SpitalPneumo.DependencyInjection.csproj", "{DA019D45-A2B4-4C98-9934-5156FF0984E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpitalPneumo.Web", "SpitalPneumo.Web\SpitalPneumo.Web.csproj", "{162B5E32-6B8C-4845-A991-2DDC73A66B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpitalPneumo.WebApi", "SpitalPneumo.WebApi\SpitalPneumo.WebApi.csproj", "{D98F0A99-C353-497C-8452-7B21003448BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD5D272D-D43D-4F7F-B0A8-3835D32D3743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5D272D-D43D-4F7F-B0A8-3835D32D3743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5D272D-D43D-4F7F-B0A8-3835D32D3743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5D272D-D43D-4F7F-B0A8-3835D32D3743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1025C8BC-C583-4AFA-9EF6-8CFCE32EFFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1025C8BC-C583-4AFA-9EF6-8CFCE32EFFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1025C8BC-C583-4AFA-9EF6-8CFCE32EFFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1025C8BC-C583-4AFA-9EF6-8CFCE32EFFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A61DBD-6ED9-4B55-B87F-9AD13B182A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A61DBD-6ED9-4B55-B87F-9AD13B182A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A61DBD-6ED9-4B55-B87F-9AD13B182A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A61DBD-6ED9-4B55-B87F-9AD13B182A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC92DEA-7385-4D2D-A78B-DBCA98B73D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC92DEA-7385-4D2D-A78B-DBCA98B73D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC92DEA-7385-4D2D-A78B-DBCA98B73D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC92DEA-7385-4D2D-A78B-DBCA98B73D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA019D45-A2B4-4C98-9934-5156FF0984E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA019D45-A2B4-4C98-9934-5156FF0984E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA019D45-A2B4-4C98-9934-5156FF0984E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA019D45-A2B4-4C98-9934-5156FF0984E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162B5E32-6B8C-4845-A991-2DDC73A66B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162B5E32-6B8C-4845-A991-2DDC73A66B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162B5E32-6B8C-4845-A991-2DDC73A66B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162B5E32-6B8C-4845-A991-2DDC73A66B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98F0A99-C353-497C-8452-7B21003448BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98F0A99-C353-497C-8452-7B21003448BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98F0A99-C353-497C-8452-7B21003448BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98F0A99-C353-497C-8452-7B21003448BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD5D272D-D43D-4F7F-B0A8-3835D32D3743} = {DF78AB0E-B86B-4443-9662-64AA91A44659}
+		{1025C8BC-C583-4AFA-9EF6-8CFCE32EFFF4} = {221132EE-5C15-4313-A584-C44FD69EAACE}
+		{75A61DBD-6ED9-4B55-B87F-9AD13B182A67} = {221132EE-5C15-4313-A584-C44FD69EAACE}
+		{DBC92DEA-7385-4D2D-A78B-DBCA98B73D0E} = {F2AC8364-733E-467E-8F9E-7400DF092660}
+		{DA019D45-A2B4-4C98-9934-5156FF0984E8} = {F2AC8364-733E-467E-8F9E-7400DF092660}
+		{162B5E32-6B8C-4845-A991-2DDC73A66B6B} = {1E6AD297-BA09-4F5B-A38C-F907DADE123C}
+		{D98F0A99-C353-497C-8452-7B21003448BC} = {1E6AD297-BA09-4F5B-A38C-F907DADE123C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C60B6110-42B6-4A5A-B31E-3683CE814FBC}
+	EndGlobalSection
+EndGlobal
